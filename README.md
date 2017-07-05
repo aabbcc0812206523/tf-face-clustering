@@ -8,16 +8,16 @@ All of the data is aligned with OpenCV 'lbpcascade_frontalface', the wrong detec
 ---  
   
 ### Embedding Graph  
-<img src="https://github.com/htkseason/tf-face-clustering/blob/master/img/embedding_graph_01.png" width="75%"/>  
-<img src="https://github.com/htkseason/tf-face-clustering/blob/master/img/embedding_graph_02.png" width="75%"/>  
+<img src="https://github.com/htkseason/tf-face-clustering/blob/master/demo/embedding_graph_01.png" width="75%"/>  
+<img src="https://github.com/htkseason/tf-face-clustering/blob/master/demo/embedding_graph_02.png" width="75%"/>  
   
 ---  
   
 ### Convolutional AutoEncoding Network  
-<img src="https://github.com/htkseason/tf-face-clustering/blob/master/img/enet_loss.png" width="75%"/>  
+<img src="https://github.com/htkseason/tf-face-clustering/blob/master/demo/enet_loss.png" width="75%"/>  
   
 ---  
   
 ### Clustering Network  
-<img src="https://github.com/htkseason/tf-face-clustering/blob/master/img/cnet_softmax_loss.png" width="75%"/>  
-<img src="https://github.com/htkseason/tf-face-clustering/blob/master/img/cnet_center_loss.png" width="75%"/>  
+<img src="https://github.com/htkseason/tf-face-clustering/blob/master/demo/cnet_softmax_loss.png" width="75%"/>  
+<img src="https://github.com/htkseason/tf-face-clustering/blob/master/demo/cnet_center_loss.png" width="75%"/>  
