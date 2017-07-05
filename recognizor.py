@@ -4,7 +4,7 @@ import numpy
 import math
 from tfobjs import *
 
-class EncodeNet:
+class ClusterNet:
     def __init__(self, input_tensor, feature_dimensions, class_nums, is_training):
   
         with tf.variable_scope('layer1'):
@@ -20,7 +20,7 @@ class EncodeNet:
             self.layer2.set_output(self.layer2.logit)
             
             
-class FeatureNet:
+class EncodeNet:
 
     def __init__(self, input_tensor, is_training):
         
@@ -95,5 +95,4 @@ class FeatureNet:
             self.olayer4.set_output(tf.nn.tanh(self.olayer4.logit))
         # ===================32->64
         
-        # self.feature_output = tf.nn.avg_pool(self.ilayer4.output, [1, 4, 4, 1], [1, 1, 1, 1], padding='VALID', name='feature_output') 
         self.feature_output = self.ilayer5.output
