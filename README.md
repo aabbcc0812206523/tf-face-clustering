@@ -1,5 +1,5 @@
 # tf-face-clustering  
-Implementation of face clustering.  
+Implement of face clustering.  
 Instead of using fine tune, I trained an unsupervised auto-encoder on CelebA.  
 The clustering network is based on center-loss and trained with Muct which only have 3000+ faces given by 200+ people.
   
